@@ -1,4 +1,4 @@
-def exe_1(x, y):
+def delitel(x, y):
     try:
         return x / y
     except ZeroDivisionError:
@@ -8,4 +8,4 @@ def exe_1(x, y):
 a = int(input('Введите первое число: '))
 b = int(input('Введите второе число: '))
 
-print(exe_1(a, b))
+print(delitel(a, b))
